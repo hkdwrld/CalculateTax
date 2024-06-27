@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Calculated Result";
+}
+
+
+<div class="row d-flex allign-items-center justify-content-center">
+    <div class="col-md-4 card p-3">
+        <h2>Calculated Tax</h2>
+            Filed as  @ViewBag.FilingStatus
+        <hr/>
+
+        <h4>Income: @ViewBag.Income</h4>
+        <h4>Standard Deductions: @ViewBag.StandardDeduction</h4>
+        <h4>Taxable Income: @ViewBag.TaxableIncome</h4>
+       
+        <h4>Tax: @ViewBag.Tax</h4>
+
+
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
