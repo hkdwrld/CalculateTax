@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTax", "CalculateTax\CalculateTax.csproj", "{EEE371E6-E860-40DD-AF18-AFA9FB4C4B46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTax", "CalculateTax\CalculateTax.csproj", "{EEE371E6-E860-40DD-AF18-AFA9FB4C4B46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTax.Models", "CalculateTax.Models\CalculateTax.Models.csproj", "{F2BDE913-A594-408A-97B5-92DE0783FB73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTax.Models", "CalculateTax.Models\CalculateTax.Models.csproj", "{F2BDE913-A594-408A-97B5-92DE0783FB73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTax.DataAccess", "CalculateTax.DataAccess\CalculateTax.DataAccess.csproj", "{C4DB2643-783A-4797-B024-888C05F9B56A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTax.DataAccess", "CalculateTax.DataAccess\CalculateTax.DataAccess.csproj", "{C4DB2643-783A-4797-B024-888C05F9B56A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTax.SD", "CalculateTax.SD\CalculateTax.SD.csproj", "{F17DDA53-DEDB-4348-90EB-620594BE6A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTax.SD", "CalculateTax.SD\CalculateTax.SD.csproj", "{F17DDA53-DEDB-4348-90EB-620594BE6A93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTax.Utility", "CalculateTax.Utility\CalculateTax.Utility.csproj", "{E67C9AEF-94E8-4FB4-B7C5-5ABD77E17E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateTax.Utility", "CalculateTax.Utility\CalculateTax.Utility.csproj", "{E67C9AEF-94E8-4FB4-B7C5-5ABD77E17E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
